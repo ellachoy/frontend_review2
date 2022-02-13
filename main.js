@@ -7,6 +7,7 @@ console.log('hi')
 // Math.floor(10.6);    // 10,  10.6을 내림
 // Math.sqrt(9);        // 3,   3의 제곱근
 // Math.random();       // 0부터 1.0 사이의 랜덤한 숫자
+// Math.round(100 * Math.random());
 
 var a = 1;
 // alert(a+1);  //2
