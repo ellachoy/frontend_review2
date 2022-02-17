@@ -14,6 +14,10 @@ var a = 1;
 var a = 2;
 // alert(a+1);  //3
 
+// condional 
+// if(true){
+//    alert('result : true');
+// }
 
 
 
