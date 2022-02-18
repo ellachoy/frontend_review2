@@ -14,10 +14,17 @@ var a = 1;
 var a = 2;
 // alert(a+1);  //3
 
-// condional 
+// condional statement
 // if(true){
 //    alert('result : true');
 // }
+
+// if(true) {
+//     alert(1);
+// }else if(true){
+//     alert(2);
+// }
+
 
 
 
