@@ -19,12 +19,27 @@ var a = 2;
 //    alert('result : true');
 // }
 
-// if(true) {
+// if(false) {
 //     alert(1);
 // }else if(true){
 //     alert(2);
 // }
 
-
-
+// id = prompt('아이디를 입력해주세요.')
+// if(id=='egoing'){
+//     alert('아이디가 일치 합니다.')
+// } else {
+//     alert('아이디가 일치하지 않습니다.')
+// }
+// id = prompt('아이디를 입력해주세요.');
+// if(id=='egoing'){
+//     password = prompt('비밀번호를 입력해주세요.');
+//     if(password==='111111'){
+//         alert('인증 했습니다.');
+//     } else {
+//         alert('인증에 실패 했습니다.');
+//     }
+// } else {
+//     alert('인증에 실패 했습니다.');
+// }
 
