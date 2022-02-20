@@ -55,3 +55,12 @@ var a = 2;
 // }else{
 //     alert('versuch noch ein mal!')
 // }
+// &&
+// let id=prompt('input your id');
+// let password=prompt('password');
+// if(id=='ellachoy' && password=='1111'){
+//     alert('hallo'+id +'yourloged in')
+
+// }else{
+//     alert('falsch!!')
+// }
