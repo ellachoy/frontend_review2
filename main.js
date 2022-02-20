@@ -43,3 +43,15 @@ var a = 2;
 //     alert('인증에 실패 했습니다.');
 // }
 
+// var id = prompt('input your id');
+// if(id=='ellachoy'){
+//     var password= prompt('plaese enter your password')
+//     if(password='1111'){
+//         alert('password correct')
+//     }else{
+//         alert('password incorrect')
+//     }
+//     alert('ellachoy is loged in')
+// }else{
+//     alert('versuch noch ein mal!')
+// }
