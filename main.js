@@ -64,3 +64,11 @@ var a = 2;
 // }else{
 //     alert('falsch!!')
 // }
+// || || |||\\
+// let id=prompt('enter your id');
+// let password=prompt('password');
+// if((id==="ellachoy" || id==="sangi" || id==="eeee") && password==="1111"){
+//     alert('correct')
+// }else{
+//     alert('try again')
+// }
