@@ -73,27 +73,37 @@ var a = 2;
 //     alert('try again')
 // }
 // loop / iterate 
-let i = 0;
-// 종료조건으로 i의 값이 10보다 작다면 true, 같거나 크다면 false가 된다.
-while(i < 10){
-    // 반복이 실행될 때마다 coding everybody <br />이 출력된다. <br /> 줄바꿈을 의미하는 HTML 태그
-    // document.write('coding everybody <br />');
-     document.write('* '+i+'<br />');
-    // i의 값이 1씩 증가한다.
-    // i++ 
-    i=i+1;
-}
+// let i = 0;
+// // 종료조건으로 i의 값이 10보다 작다면 true, 같거나 크다면 false가 된다.
+// while(i < 10){
+//     // 반복이 실행될 때마다 coding everybody <br />이 출력된다. <br /> 줄바꿈을 의미하는 HTML 태그
+//     // document.write('coding everybody <br />');
+//      document.write('* '+i+'<br />');
+//     // i의 값이 1씩 증가한다.
+//     // i++ 
+//     i=i+1;
+// }
 // star pattern 
-let n=5;
-let string="";
-for(let x = 0; x < n; x++){
-    // document.write('*');
-    for(let y = 0; y < n; y++){
+let n=5;// row or column count
+let string="";// defining an empty string
+for(let x = 0; x < n; x++){// external loop
+    for(let y = 0; y < n; y++){// internal loop
         string += "*";
     }
-    string += "<br>";
+    string += "<br>";// newline after each row
 }
-document.write(string);
+document.write(string);// printing the string
+document.write('------------------------'+'<br />');
+
+let star="";// defining an empty string
+for(let i =0; i<10;i++){// external loop
+    for(let j=0; j<=i;j++){// internal loop
+        star +='*';
+    }
+    star +='<br/>';// newline after each row
+}
+document.write(star);// printing the string
+
 // // 0부터 9까지 변수 i에 순차적으로 값을 할당        
 // for(var i = 0; i < 10; i++){
 //     // 0부터 9까지의 변수를 j의 값에 순차적으로 할당
