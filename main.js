@@ -78,14 +78,21 @@ let i = 0;
 while(i < 10){
     // 반복이 실행될 때마다 coding everybody <br />이 출력된다. <br /> 줄바꿈을 의미하는 HTML 태그
     // document.write('coding everybody <br />');
-     document.write('* <br />');
+     document.write('* '+i+'<br />');
     // i의 값이 1씩 증가한다.
     // i++ 
     i=i+1;
 }
-for(let i = 0; i < 10; i++){
-    document.write('coding everybody'+i+'<br />');
+let n=5;
+let string="";
+for(let x = 0; x < n; x++){
+    // document.write('*');
+    for(let y = 0; y < n; y++){
+        string += "*";
+    }
+    string += "<br>";
 }
+document.write(string);
 // // 0부터 9까지 변수 i에 순차적으로 값을 할당        
 // for(var i = 0; i < 10; i++){
 //     // 0부터 9까지의 변수를 j의 값에 순차적으로 할당
