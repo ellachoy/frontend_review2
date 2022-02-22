@@ -83,6 +83,7 @@ while(i < 10){
     // i++ 
     i=i+1;
 }
+// star pattern 
 let n=5;
 let string="";
 for(let x = 0; x < n; x++){
