@@ -88,7 +88,7 @@ let n=5;// row or column count
 let string="";// defining an empty string
 for(let x = 0; x < n; x++){// external loop
     for(let y = 0; y < n; y++){// internal loop
-        string += "*";
+        string += "n";
     }
     string += "<br>";// newline after each row
 }
@@ -96,7 +96,7 @@ document.write(string);// printing the string
 document.write('------------------------'+'<br />');
 
 let star="";// defining an empty string
-for(let i =0; i<10;i++){// external loop
+for(let i =0; i<5;i++){// external loop
     for(let j=0; j<=i;j++){// internal loop
         star +='*';
     }
@@ -104,13 +104,18 @@ for(let i =0; i<10;i++){// external loop
 }
 document.write(star);// printing the string
 
-// // 0부터 9까지 변수 i에 순차적으로 값을 할당        
-// for(var i = 0; i < 10; i++){
-//     // 0부터 9까지의 변수를 j의 값에 순차적으로 할당
-//     for(var j = 0; j < 10; j++){    
-//         // i와 j의 값을 더한 후에 출력
-//         // String은 숫자인 i와 j의 데이터 타입을 문자로 형태를 변환하는 명령이다. 
-//         // String()을 제거하고 실행해보면 의미가 좀 더 분명하게 드러날 것이다.
-//         document.write(String(i)+String(j)+'<br />');
-//     }
-// }
+// 0부터 9까지 변수 x에 순차적으로 값을 할당        
+for(var x = 0; x < 5; x++){
+    // 0부터 9까지의 변수를 y의 값에 순차적으로 할당
+    for(var y = 0; y < 5; y++){    
+        // x와 y의 값을 더한 후에 출력
+        // String은 숫자인 x와 y의 데이터 타입을 문자로 형태를 변환하는 명령이다. 
+        // String()을 제거하고 실행해보면 의미가 좀 더 분명하게 드러날 것이다.
+        document.write(String(x)+String(y)+'<br />');
+    }
+    document.write('<br />');
+}
+document.write('<br />');
+for(var i = 0; i < 10; i++){
+    document.write('coding everybody'+i+'<br />');
+}
