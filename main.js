@@ -112,6 +112,7 @@ for(var x = 0; x < 5; x++){
         // String은 숫자인 x와 y의 데이터 타입을 문자로 형태를 변환하는 명령이다. 
         // String()을 제거하고 실행해보면 의미가 좀 더 분명하게 드러날 것이다.
         document.write(String(x)+String(y)+'<br />');
+        // document.write(x+y+'<br />'); ohne String
     }
     document.write('<br />');
 }
@@ -123,3 +124,4 @@ for(var i = 0; i < 10; i++){
     }
     document.write('coding everybody'+i+'<br />');
 }
+// Function
