@@ -124,4 +124,15 @@ for(var i = 0; i < 10; i++){
     }
     document.write('coding everybody'+i+'<br />');
 }
+document.write('-------------------------'+'<br/>');
 // Function
+function numbering(){
+    // document.write(1);
+    let b=0;
+    while(b<10){
+        document.write(b );
+        b += 1;
+        
+    }
+}
+numbering();
