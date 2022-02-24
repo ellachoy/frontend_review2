@@ -149,4 +149,8 @@ function get_member2(){
  
 document.write(get_member1()+'<br />');
 document.write(get_member2());
-// function output
+// function input
+function get_argument(arg){
+    return arg;
+}
+document.write(get_argument(1));
