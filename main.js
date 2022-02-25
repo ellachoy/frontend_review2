@@ -172,3 +172,13 @@ document.write(get_arguments(10,20)+'<br />');
 document.write(get_arguments(20,30)+'<br />');
 document.write('-------------------------'+'<br/>');
 // Array
+let member=['ella', 'Fabian', 'John']
+document.write(member+'<br />');
+document.write(member[0]+'<br />');
+document.write('-------------------------'+'<br/>');
+// mit function
+function get_members(){
+    return ['egoing', 'k8805', 'sorialgi'];
+}
+var members = get_members();
+document.write(members[0]);
