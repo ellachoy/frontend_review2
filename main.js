@@ -137,6 +137,12 @@ document.write('-------------------------'+'<br/>');
 //      }   
 //     }
 // numbering();
+let numbering=function() {
+    for(let b=0; b<10;b++) {
+                 document.write(b);
+             }   
+}
+numbering();
 document.write('<br/>'+'-------------------------'+'<br/>');
 
 function get_member1(){
@@ -159,3 +165,8 @@ function get_argument(arg){
 document.write(get_argument(1)+'<br />');
 document.write(get_argument(2)+'<br />');
 document.write('-------------------------'+'<br/>');
+function get_arguments(arg1, arg2) {
+    return arg1+arg2;
+}
+document.write(get_arguments(10,20)+'<br />');
+document.write(get_arguments(20,30)+'<br />');
