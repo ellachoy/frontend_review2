@@ -148,9 +148,14 @@ function get_member2(){
 }
  
 document.write(get_member1()+'<br />');
-document.write(get_member2());
+document.write(get_member2()+'<br />');
+document.write('-------------------------'+'<br/>');
+
 // function input
 function get_argument(arg){
-    return arg;
+    // return arg;
+    return arg*1000;
 }
-document.write(get_argument(1));
+document.write(get_argument(1)+'<br />');
+document.write(get_argument(2)+'<br />');
+document.write('-------------------------'+'<br/>');
