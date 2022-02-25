@@ -170,3 +170,5 @@ function get_arguments(arg1, arg2) {
 }
 document.write(get_arguments(10,20)+'<br />');
 document.write(get_arguments(20,30)+'<br />');
+document.write('-------------------------'+'<br/>');
+// Array
