@@ -189,6 +189,15 @@ for(m=0; m<members.length; m++){ //grossgeschrieben
 }
 document.write('-------------------------'+'<br/>');
 // arry: push, concat, unshift, splice,delete
-let li=['a', 'b', 'c', 'd', 'e',];
-li.push('ella');
-document.write(li);
+let mi=['a', 'b', 'c', 'd', 'e',];
+mi.push('ella');
+document.write(mi+'<br/>');
+let mb = mi.concat(['fabian', 'george']);
+document.write(mb+'<br/>');
+mi.unshift('z');
+document.write(mi+'<br/>');
+document.write('-------------------------'+'<br/>');
+//shift/pop 
+mi.shift();
+document.write(mi+'<br/>');
+// object
