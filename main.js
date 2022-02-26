@@ -187,3 +187,8 @@ document.write('-------------------------'+'<br/>');
 for(m=0; m<members.length; m++){ //grossgeschrieben
     document.write(members[m].toUpperCase()+'<br/>')
 }
+document.write('-------------------------'+'<br/>');
+// arry: push, concat, unshift, splice,delete
+let li=['a', 'b', 'c', 'd', 'e',];
+li.push('ella');
+document.write(li);
