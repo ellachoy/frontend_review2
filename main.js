@@ -181,4 +181,5 @@ function get_members(){
     return ['egoing', 'k8805', 'sorialgi'];
 }
 var members = get_members();
-document.write(members[0]);
+// document.write(get_members());// egoing,k8805,sorialgi
+document.write(members[0]);//egoing 
