@@ -182,4 +182,8 @@ function get_members(){
 }
 var members = get_members();
 // document.write(get_members());// egoing,k8805,sorialgi
-document.write(members[0]);//egoing 
+document.write(members[0]+'<br/>');//egoing 
+document.write('-------------------------'+'<br/>');
+for(m=0; m<members.length; m++){ //grossgeschrieben
+    document.write(members[m].toUpperCase()+'<br/>')
+}
