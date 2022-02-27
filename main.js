@@ -200,4 +200,15 @@ document.write('-------------------------'+'<br/>');
 //shift/pop 
 mi.shift();
 document.write(mi+'<br/>');
+document.write('-------------------------'+'<br/>');
 // object
+let grades={
+    'egoing':10,
+    'ella':20,
+    'Fabian':50,
+};
+document.write(grades['Fabian'])
+// for(g=0;g<grades;g++) {
+//     return grades[g];
+// }
+// document.write(grades[g])
