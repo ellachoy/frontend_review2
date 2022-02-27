@@ -218,8 +218,11 @@ var grades1 = {
     'egoing': 10,
      'k8805': 6, 
      'sorialgi': 80};
-for(key in grades1) {
-    document.write("key : "+key+" value : "+grades1[key]+"<br />");
+// for(key in grades1) {
+//     document.write("key : "+key+" value : "+grades1[key]+"<br />");
+// }
+for(let namekey in grades1) {
+        document.write("<li>key : "+namekey+" value : "+grades1[namekey]+"</li>");
 }
 document.write('-------------------------'+'<br/>');
 var grades2 = {
