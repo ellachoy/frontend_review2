@@ -222,7 +222,7 @@ var grades1 = {
 //     document.write("key : "+key+" value : "+grades1[key]+"<br />");
 // }
 for(let namekey in grades1) {
-        document.write("<li>key : "+namekey+" value : "+grades1[namekey]+"</li>");
+        document.write("<li>key : "+namekey+" , value : "+grades1[namekey]+"</li>");
 }
 document.write('-------------------------'+'<br/>');
 var grades2 = {
@@ -237,3 +237,4 @@ var grades2 = {
     }
 };
 grades2.show();
+// module
