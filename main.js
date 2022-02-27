@@ -208,7 +208,7 @@ let grades={
     'Fabian':50,
 };
 document.write(grades['Fabian'])
-// for(g=0;g<grades;g++) {//mein vorgestellte codes=falsch!!
+// for(g=0;g<grades.length;g++) {//mein vorgestellte codes=falsch!!
 //     return grades[g];
 // }
 // document.write(grades[g])
@@ -223,7 +223,10 @@ for(key in grades1) {
 }
 document.write('-------------------------'+'<br/>');
 var grades2 = {
-    'list': {'egoing': 10, 'k8805': 6, 'sorialgi': 80},
+    'list': {'egoing': 10, 
+             'k8805': 6, 
+             'sorialgi': 80
+            },
     'show' : function(){
         for(var name in this.list){
             document.write(name+':'+this.list[name]+"<br />");
