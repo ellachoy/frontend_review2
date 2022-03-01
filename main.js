@@ -240,6 +240,12 @@ grades2.show();
 document.write('-------------------------'+'<br/>');
 // regualr expression
 //Function: 
-
-
-
+let vscope = 'global';
+function fscope() {
+    //  let vscope = 'local';
+    vscope = 'local5';
+    document.write(vscope);
+   
+}
+fscope();
+document.write(vscope);
