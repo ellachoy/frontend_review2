@@ -249,3 +249,44 @@ function fscope() {
 }
 fscope();
 document.write(vscope);
+document.write('<br/>'+'-------------------------'+'<br/>');
+
+// function a (){
+//     var i = 0;
+// }
+// for(var i = 0; i < 5; i++){
+//     a();
+//     document.write(i);
+// }
+let MYAPP ={}// global variable , object
+MYAPP.calculator={
+    'left':null,
+    'right':null
+}
+MYAPP.coordinate = {
+    'left' : null,
+    'right' : null
+}
+MYAPP.calculator.left=10;
+MYAPP.calculator.right=20;
+function sum(){
+    return MYAPP.calculator.left+MYAPP.calculator.right;
+}
+document.write(sum());
+// (function(){ 익명함수 함수 안에 MYAPP선언
+//     var MYAPP = {} //local variable
+//     MYAPP.calculator = {
+//         'left' : null,
+//         'right' : null
+//     }
+//     MYAPP.coordinate = {
+//         'left' : null,
+//         'right' : null
+//     }
+//     MYAPP.calculator.left = 10;
+//     MYAPP.calculator.right = 20;
+//     function sum(){
+//         return MYAPP.calculator.left + MYAPP.calculator.right;
+//     }
+//     document.write(sum());
+// }())
