@@ -237,4 +237,8 @@ var grades2 = {
     }
 };
 grades2.show();
-// module
+document.write('-------------------------'+'<br/>');
+// regualr expression
+
+
+
