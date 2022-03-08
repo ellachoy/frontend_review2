@@ -365,3 +365,4 @@ function outter(){
     inner();
 }
 outter();
+document.write('<br/>'+'-------------------------'+'<br/>');
