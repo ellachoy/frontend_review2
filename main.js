@@ -341,3 +341,9 @@ function sortNumber(a,b){
 var numbers = [20, 10, 9,8,7,6,5,4,3,2,1];
 document.write(numbers.sort(sortNumber)); // array, [20,10,9,8,7,6,5,4,3,2,1]
 document.write('<br/>'+'-------------------------'+'<br/>');
+// {"title" :"Javascript",
+//   "autor" :"egoing"
+// }
+// $.get('./datasource.json.js', function(result){
+//     console.log(result);
+// }, 'json');
