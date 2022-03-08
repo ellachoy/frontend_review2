@@ -366,3 +366,25 @@ function outter(){
 }
 outter();
 document.write('<br/>'+'-------------------------'+'<br/>');
+// var arr1 =[]
+// for(var i=0; i<5; i++) {
+//     arr1[i]= function(){
+//        return(i);
+//     }
+// }
+// for(var index in arr1){
+//     document.write(arr1[index]());
+// }
+var arr2 = []
+for(var i = 0; i < 5; i++){
+    arr2[i] = function(id) {
+        return function(){
+            return id;
+        }
+    }(i);
+}
+for(var index in arr2) {
+   document.write(arr2[index]());
+}
+document.write('<br/>'+'-------------------------'+'<br/>');
+// arguments
