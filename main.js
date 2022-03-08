@@ -347,3 +347,4 @@ document.write('<br/>'+'-------------------------'+'<br/>');
 // $.get('./datasource.json.js', function(result){
 //     console.log(result);
 // }, 'json');
+// closure
