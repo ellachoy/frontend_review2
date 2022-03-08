@@ -347,4 +347,21 @@ document.write('<br/>'+'-------------------------'+'<br/>');
 // $.get('./datasource.json.js', function(result){
 //     console.log(result);
 // }, 'json');
+
 // closure
+// function outter(){
+//     function inner(){
+//         var title = 'coding everybody'; 
+//         document.write(title);
+//     }
+//     inner();
+// }
+// outter();
+function outter(){
+    var title = 'coding everybody';  
+    function inner(){        
+        document.write(title);
+    }
+    inner();
+}
+outter();
