@@ -397,3 +397,21 @@ function sum(){
     return _sum;
 }
 document.write('result : ' + sum(1,2,3,4));
+document.write('<br/>'+'-------------------------'+'<br/>');
+
+function sum1(arg1,arg2){
+    return arg1+arg2;
+}
+document.write(sum.apply(null, [1,2]))
+document.write('<br/>'+'-------------------------'+'<br/>');
+o1 = {val1:1, val2:2, val3:3}
+o2 = {v1:10, v2:50, v3:100, v4:25}
+function summ(){
+    var _summ = 0;
+    for(name in this){
+        _summ += this[name];
+    }
+    return _summ;
+}
+document.write(summ.apply(o1)) // 6
+document.write(summ.apply(o2)) // 185
