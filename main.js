@@ -415,3 +415,5 @@ function summ(){
 }
 document.write(summ.apply(o1)) // 6
 document.write(summ.apply(o2)) // 185
+document.write('<br/>'+'-------------------------'+'<br/>');
+// oop
