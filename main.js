@@ -418,3 +418,17 @@ document.write(summ.apply(o2)) // 185
 document.write('<br/>'+'-------------------------'+'<br/>');
 // oop
 //new
+// var person={}
+// person.name="egoing";
+// person.introduce=function(){
+//     return 'My name is '+this.name;
+// }
+// document.write(person.introduce());
+var person={
+    'name':'egoing',
+    'introduce':function(){
+        return 'My name is '+this.name;
+    }
+}
+document.write(person.introduce());
+document.write('<br/>'+'-------------------------'+'<br/>');
