@@ -432,10 +432,22 @@ document.write('<br/>'+'-------------------------'+'<br/>');
 // }
 // document.write(person.introduce());
 document.write('<br/>'+'-------------------------'+'<br/>');
-function Person(){}
-var p = new Person();
-p.name = 'egoing';
-p.introduce = function(){
-    return 'your name is '+this.name; 
+
+// function Person(){}
+// var p = new Person();
+// p.name = 'egoing';
+// p.introduce = function(){
+//     return `your name is ${this.name}`; 
+// }
+// document.write(p.introduce());
+function Person(name){
+    this.name=name;
+    this.introduce=function(){
+        return `your name is ${this.name}`;
+    }
 }
-document.write(p.introduce());
+var p1= new Person('egoing');
+document.write(p1.introduce()+"<br/>");
+
+var p2=new Person ('ella');
+document.write(p2.introduce()+"<br/>");
