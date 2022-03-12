@@ -440,21 +440,24 @@ document.write('<br/>'+'-------------------------'+'<br/>');
 //     return `your name is ${this.name}`; 
 // }
 // document.write(p.introduce());
-function Person(name){
-    this.name=name;
-    this.introduce=function(){
-        return `your name is ${this.name}`;
-    }
-}
-var p1= new Person('egoing');
-document.write(p1.introduce()+"<br/>");
+// function Person(name){
+//     this.name=name;
+//     this.introduce=function(){
+//         return `your name is ${this.name}`;
+//     }
+// }
+// var p1= new Person('egoing');
+// document.write(p1.introduce()+"<br/>");
 
-var p2=new Person ('ella');
-document.write(p2.introduce()+"<br/>");
-document.write('<br/>'+'-------------------------'+'<br/>');
-function func(){
-    if(window === this){
-        document.write("window === this");
-    }
-}
-func(); 
+// var p2=new Person ('ella');
+// document.write(p2.introduce()+"<br/>");
+// document.write('<br/>'+'-------------------------'+'<br/>');
+
+// function func(){
+//     if(window === this){
+//         document.write("window === this");
+//     }
+// }
+// func(); 
+// this (conductor)
+
