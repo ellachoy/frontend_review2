@@ -451,3 +451,10 @@ document.write(p1.introduce()+"<br/>");
 
 var p2=new Person ('ella');
 document.write(p2.introduce()+"<br/>");
+document.write('<br/>'+'-------------------------'+'<br/>');
+function func(){
+    if(window === this){
+        document.write("window === this");
+    }
+}
+func(); 
