@@ -487,4 +487,11 @@ class Person{
     }
 }
 // create object
+const ella= new Person('ella',20);
+document.write(ella.name+"<br />")
+document.write(ella.age+"<br />")
+ella.speak();
+document.write('<br/>'+'-------------------------'+'<br/>');
+// Getter and setters
+
 
