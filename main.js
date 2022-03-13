@@ -460,4 +460,31 @@ document.write('<br/>'+'-------------------------'+'<br/>');
 // }
 // func(); 
 // this (conductor)
+// var funcThis=null;
+// function Func(){
+//     funcThis=this;
+// }
+// var o1=Func();
+// if(funcThis === window){
+//         document.write('window<br/>')
+// }
+// var o2=new Func();
+// if(funcThis ===o2){
+//     document.write('o2<br/>')
+// }
+// document.write('<br/>'+'-------------------------'+'<br/>');
+// class
+class Person{
+    // constructor
+    constructor(name,age){
+        // field
+        this.name=name;
+        this.age=age;
+    }
+    // methods
+    speak(){
+      document.write(`${this.name}:hello!`)
+    }
+}
+// create object
 
